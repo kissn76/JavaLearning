@@ -2,7 +2,7 @@
  * Megszámolás tétele. A tömb azon elemeinek száma, amelyek megfelelnek bizonyos
  * feltétel(ek)nek.
  */
-package tetelek;
+package ProgramozasiTetelek;
 
 public class Megszamolas {
 

@@ -1,4 +1,4 @@
-package howto.iterate;
+package Basics.ArraysCollectionsMaps;
 import java.util.LinkedHashMap;
 import java.util.Map;
 

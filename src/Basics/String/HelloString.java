@@ -1,4 +1,4 @@
-package string;
+package Basics.String;
 
 public class HelloString {
 
@@ -24,7 +24,7 @@ public class HelloString {
 
         String eString = String.valueOf(e);
         System.out.println(eString);
-
+ 
         // információ
         System.out.println("length: " + a.length());
         System.out.println("isEmpty: " + a.isEmpty());

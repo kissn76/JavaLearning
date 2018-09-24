@@ -2,7 +2,7 @@
  * Kiválasztás tétele. Egy adott érték hányadik helyen szerepel a tömbben? A
  * keresett érték biztosan a tömb eleme, ezért ezt nem vizsgáljuk.
  */
-package tetelek;
+package ProgramozasiTetelek;
 
 public class Kivalasztas {
 

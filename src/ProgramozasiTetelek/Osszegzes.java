@@ -1,7 +1,7 @@
 /**
  * Összegzés tétele. Egy tömb összes elemének összeadása.
  */
-package tetelek;
+package ProgramozasiTetelek;
 
 public class Osszegzes {
 

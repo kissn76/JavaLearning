@@ -1,8 +1,7 @@
+package ProgramozasiTetelek;
 /**
  * Eldöntés tétele. Egy érték megtalálható-e a tömbben.
  */
-package tetelek;
-
 public class Eldontes {
 
     public static void main(String[] args) {

@@ -2,7 +2,7 @@
  * Kiválogatás tétele. A tömb bizonyos feltétel(ek)nek megfelelő elemeit egy
  * másik tömbbe másolom át.
  */
-package tetelek;
+package ProgramozasiTetelek;
 
 import java.util.ArrayList;
 

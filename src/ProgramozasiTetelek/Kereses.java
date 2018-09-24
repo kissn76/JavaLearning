@@ -1,8 +1,8 @@
+package ProgramozasiTetelek;
 /**
  * Keresés tétele. Adott elem hányadik helyen szerepel a tömbben, ha szerepel
  * benne?
  */
-package tetelek;
 
 public class Kereses {
 
