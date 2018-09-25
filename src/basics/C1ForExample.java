@@ -1,4 +1,6 @@
-public class SumToNumber {
+package basics;
+
+public class C1ForExample {
 
     public static void main(String[] args) {
         int sum = 0;

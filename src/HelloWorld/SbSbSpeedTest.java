@@ -1,4 +1,4 @@
-package Basics.String;
+package HelloWorld;
 
 public class SbSbSpeedTest {
 

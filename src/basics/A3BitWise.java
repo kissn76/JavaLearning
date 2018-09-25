@@ -1,6 +1,7 @@
-package sample;
+package basics;
 
-public class SampleBitWise {
+public class A3BitWise {
+
     static final int VISIBLE = 1;
     static final int DRAGGABLE = 2;
     static final int SELECTABLE = 4;
@@ -10,28 +11,37 @@ public class SampleBitWise {
         int flags = 0;
 
         flags = flags | VISIBLE;
-        flags = flags | DRAGGABLE;
-        // flags = flags | SELECTABLE;
+        // flags = flags | DRAGGABLE;
+        flags = flags | SELECTABLE;
         flags = flags | EDITABLE;
 
         System.out.println(flags);
         System.out.println(Integer.toBinaryString(flags));
 
+        String f = "";
+
         if ((flags & VISIBLE) == VISIBLE) {
-            System.out.println("Visible");
+            f += "Visible";
+            f += " ";
         }
 
         if ((flags & DRAGGABLE) == DRAGGABLE) {
-            System.out.println("Draggable");
+            f += "Draggable";
+            f += " ";
         }
 
         if ((flags & SELECTABLE) == SELECTABLE) {
-            System.out.println("Selectable");
+            f += "Selectable";
+            f += " ";
         }
 
         if ((flags & EDITABLE) == EDITABLE) {
-            System.out.println("Editable");
+            f += "Editable";
+            f += " ";
         }
+
+        f = f.trim();
+        System.out.println(f);
     }
 
 }

@@ -1,4 +1,4 @@
-package sample;
+package HelloWorld;
 
 public class SampleExtends {
 

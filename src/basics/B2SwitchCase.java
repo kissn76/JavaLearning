@@ -1,8 +1,8 @@
-package sample;
+package basics;
 
 import java.util.NoSuchElementException;
 
-public class SampleSwitchCase {
+public class B2SwitchCase {
 
     public static void main(String[] args) throws NoSuchElementException {
         char c = 'a';

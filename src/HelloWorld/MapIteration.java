@@ -1,4 +1,4 @@
-package Basics.ArraysCollectionsMaps;
+package HelloWorld;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
