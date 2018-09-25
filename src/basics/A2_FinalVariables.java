@@ -1,6 +1,6 @@
 package basics;
 
-public class A2FinalVariables {
+public class A2_FinalVariables {
 
     public static void main(String[] args) {
         final int intVar = 1;   // deklaráltuk és inicializáltuk

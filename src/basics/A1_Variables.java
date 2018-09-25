@@ -1,6 +1,6 @@
 package basics;
 
-public class A1Variables {
+public class A1_Variables {
 
     public static void main(String[] args) {
         /*
