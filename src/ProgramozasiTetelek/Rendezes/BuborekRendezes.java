@@ -12,23 +12,24 @@ package ProgramozasiTetelek.Rendezes;
 public class BuborekRendezes {
 
     public static void main(String[] args) {
-        int[] tomb = { 9, 4, 5, 2, 3, 1, 6, 8, 7, 10 };
+        int[] tomb = {9, 4, 5, 2, 3, 1, 6, 8, 7, 10};
+        int osszehasonlitasokSzama = 0;
 
         for (int i = tomb.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
-                if (tomb[j] > tomb[i]) {
-                    int a = tomb[i];
-                    tomb[i] = tomb[j];
+                if (tomb[j] > tomb[j + 1]) {
+                    int a = tomb[j + 1];
+                    tomb[j + 1] = tomb[j];
                     tomb[j] = a;
                 }
-
+                osszehasonlitasokSzama++;
             }
         }
 
         for (int i : tomb) {
             System.out.print(i + " ");
         }
-
+        System.out.println("\n" + osszehasonlitasokSzama);
     }
 
 }
